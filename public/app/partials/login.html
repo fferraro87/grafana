@@ -3,7 +3,7 @@
 	<div class="login-box">
 
 		<div class="login-box-logo">
-			<img class="logo-icon" src="public/img/grafana_icon.svg"></img><br>
+			<img class="logo-icon" src="public/img/levita_icon.png"></img><br>
 			<i class="icon-gf icon-gf-grafana_wordmark"></i>
 		</div>
 
@@ -11,9 +11,6 @@
 			<div class="login-tab-header">
 				<button class="btn-login-tab" ng-click="loginMode = true;" ng-class="{active: loginMode}">
 					Log in
-				</button>
-				<button class="btn-login-tab" ng-click="loginMode = false;" ng-class="{active: !loginMode}" ng-show="!disableUserSignUp">
-					Sign up
 				</button>
 			</div>
 
@@ -43,7 +40,7 @@
 				<div class="text-center login-divider" ng-show="oauthEnabled && allowUserPassLogin">
 					<div class="login-divider-line">
 						<span class="login-divider-text">
-							Or login with
+							O fai il login con
 						</span>
 					</div>
 				</div>
@@ -53,11 +50,11 @@
 				<div class="login-oauth text-center" ng-show="oauthEnabled">
 					<a class="btn btn-large btn-google" href="login/google" target="_self" ng-if="googleAuthEnabled">
 						<i class="fa fa-google"></i>
-						with Google
+						con Google
 					</a>
 					<a class="btn btn-large btn-github" href="login/github" target="_self" ng-if="githubAuthEnabled">
 						<i class="fa fa-github"></i>
-						with Github
+						con Github
 					</a>
 				</div>
 			</div>
@@ -67,7 +64,7 @@
 			<div class="text-center password-recovery" ng-show="allowUserPassLogin">
 				<div class="text-center">
 					<a href="user/password/send-reset-email">
-						Forgot your password?
+						Dimenticato la password?
 					</a>
 				</div>
 			</div>
